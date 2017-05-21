@@ -1,0 +1,66 @@
+*{
+	font-family: 'Josefin Sans';
+}
+
+
+div{
+	background-color: yellow;
+}
+
+p{
+	background-color: deeppink;
+}
+
+/*index1*/
+.uno{
+	height: 50px;
+	margin: 0 auto;
+}
+.uno p{
+	border: 1px solid black;
+}
+/*index2*/
+.dos{
+	margin: 0 auto;
+	width: 150px;
+	height: 50px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+}
+/*index3*/
+.tres, .cuatro{
+	display: inline-block;
+	margin-right: 10px;
+	padding: 5px;
+}
+#seccion{
+	text-align: center;
+}
+/*index4*/
+.cuatro{
+	width: 150px;
+	text-align: left;
+	height: 50px;
+}
+/*index5*/
+.cuadrado{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 5px;
+	background-color: pink;
+}
+.cuadro2{
+	display: block;
+	float: left;
+	background-color: blue;
+	width: 40%;
+	height: 70%;
+	padding: 20px;
+}
+
+.divchico2{
+	display: inline-block;
+	background-color: green;
+}
+
+
