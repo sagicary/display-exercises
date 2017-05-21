@@ -47,20 +47,44 @@ p{
 	width: 100px;
 	height: 100px;
 	margin-bottom: 5px;
-	background-color: pink;
 }
 .cuadro2{
 	display: block;
-	float: left;
+	overflow: auto;
 	background-color: blue;
-	width: 40%;
-	height: 70%;
-	padding: 20px;
+	width: 340px;
+	height: 120px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .divchico2{
 	display: inline-block;
-	background-color: green;
+	float: left;
+	background-color: lightblue;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.cuadro3{
+	display: block;
+	overflow: auto;
+	width: 220px;
+	height: 105px;
+	background-color: white;
+}
+
+.divchico3{
+	display: inline-block;
+	float: left;
+	background-color: purple;
+	margin-right: 10PX;
+}
+.div1 {
+	background-color: pink;
+}
+.div4 {
+	background-color: blue;
 }
 
 
